@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="设置">>
+
+    <PreferenceCategory android:title="定位">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:enabled="true"
+            android:key="check_preference"
+            android:summaryOff="开启有利于记步准确"
+            android:title="强制使用算法记步" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
